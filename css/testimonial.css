@@ -1,0 +1,115 @@
+.testimonial {
+    padding-top: 98px;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/Sections background/section-3.jpg") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.white {
+    color: white;
+}
+
+.testimonial_wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+.main_testimonial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.testimonial_text {
+    color: #BBBBBB;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 36px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.main_testimonial .testimonial_logo{
+    height: 30px;
+}
+
+.name {
+    color: #18CFAB;
+    font-weight: 700;
+    padding-top: 37px;
+    text-transform: uppercase;
+}
+
+.role {
+    color: #BBBBBB;
+    font-size: 13px;
+    font-weight: 300;
+    padding: 30px 0 10px 0;
+}
+
+
+.testimonial_img{
+    border-radius: 50%;
+    width: 142px;
+    height: 142px;
+    overflow: hidden;
+    margin-top: 25px;
+    box-shadow: 0 0 0 10px rgba(31, 218, 181, 0.2);
+
+}
+.people{
+    width: 100%;
+}
+.testimonial>.wrapper{
+    padding-bottom: 104px;
+}
+
+.slider{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #BBBBBB;
+}
+
+.arrow:hover{
+    border: none;
+    background-color: #18cfab;
+}
+
+.people_slider{
+    display: flex;
+    margin: 0 20px;
+}
+
+.nav_slider{
+    border-radius: 50%;
+    width: 72px;
+    height: 72px;
+    overflow: hidden;
+    transition: all .3s;
+    margin: 0 20px;
+    box-shadow: 0 0 0 5px rgba(31, 218, 181, 0.2);
+}
+
+.slider_animate{
+    transform: translateY(-10px);
+    transition: all .3s;
+}
+
+.nav_slider>img{
+    width: 100%;
+}

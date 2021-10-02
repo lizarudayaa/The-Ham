@@ -1,0 +1,36 @@
+.description_wrap{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.78), rgba(0, 0, 0, 0.78)), url("../img/Sections background/section-2.jpg");
+    height: 476px;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.dscr_1{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #18CFAB;
+}
+
+.dscr_2{
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 40px;
+    color: #D8D8D8;
+    text-align: center;
+    padding-top: 13px;
+}
+
+.btn_2 {
+    margin-top: 70px;
+    background-color: #18cfab;
+    color:#fff;
+    border: none;
+    border-top: 4px solid #fff;
+}

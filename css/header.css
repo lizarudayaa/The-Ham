@@ -1,0 +1,156 @@
+.header_wrap {
+    display: grid;
+    background: url("../img/Sections background/section-1(header).jpg") center no-repeat;
+    background-size: cover;
+}
+
+
+/*Logo */
+
+
+.logo_wrap{
+    margin-right: 305px;
+}
+
+.logo_img{
+    background-image: url("../img/logo/logo.svg");
+    display: inline-block;
+    width: 58px;
+    height: 67px;
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 67px;
+}
+.logo_the{
+    font-size: 32px;
+    font-weight: 300;
+    color: white;
+}
+
+.logo_ham{
+    font-size: 32px;
+    font-weight: 700;
+    color:#18CFAB;
+
+}
+
+/*Navigation*/
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    background: rgba(94, 93, 88, 0.6);
+}
+
+.nav_wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation_list{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    width: 615px;
+}
+
+.nav_item{
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid transparent;
+}
+
+.nav_link{
+    line-height: 118px;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.6);
+}
+.nav_item:hover .nav_link,
+.search-icon:hover{
+    color: #18CFAB;
+}
+
+.nav_item:hover {
+    border-bottom: 2px solid #18CFAB;
+}
+
+.search-icon {
+    margin-left: 22px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+
+.description{
+    font-weight: bold;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: white;
+    margin: 0;
+
+}
+
+.slogan{
+    font-weight: bold;
+    font-size: 78px;
+    text-transform: uppercase;
+    color: white;
+    margin: 0;
+
+}
+.sub_description{
+    font-size: 34px;
+    text-transform: capitalize;
+    color: #D4D4D4;
+    margin: 0;
+
+}
+
+.header_description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 250px;
+
+    row-gap: 22px;
+}
+
+/*Button*/
+.btn_wrap{
+    margin-top: 135px;
+    margin-bottom: 250px;
+    display: flex;
+    justify-content: center;
+
+}
+.btn {
+    min-width: 170px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 5px;
+    padding: 25px 16px;
+    outline: none;
+    border: none;
+}
+
+.btn_green{
+    margin-right: 26px;
+    background-color: #18CFAB;
+    box-shadow: 0 -5px 0 0 white;
+
+}
+.btn_blue{
+    background-color: #00CBF6;
+    box-shadow: 0 -5px 0 0 white;
+
+}

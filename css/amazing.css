@@ -1,0 +1,131 @@
+.work_wrap{
+    background: #E9EDEF;
+    padding: 96px;
+
+}
+
+.work_nav{
+    display: grid;
+    justify-items: center;
+}
+
+.work_list{
+    display: flex;
+    margin-bottom: 71px;
+}
+.work_item{
+    font-size: 14px;
+    line-height: 42px;
+    color: #717171;
+    padding: 15px ;
+    border: 1px solid #DADADA;
+    background: rgba(0, 0, 0, 0.0001);
+}
+
+.work_item:first-child{
+    width: 79px;
+    text-align: center;
+}
+.work_item:hover{
+    color: #18cfab;
+    border: 1px solid #18cfab;
+    cursor: pointer;
+}
+
+.photo_list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.photo_item{
+    position: relative;
+}
+
+.work_img{
+    width: 285px;
+    height: 211px;
+    position: absolute;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.photo_dscr{
+    width: 285px;
+    height: 211px;
+    border-top: 2px solid #18cfab;
+}
+
+.photo_item:hover .work_img{
+    opacity: 0;
+    z-index: -1;
+}
+
+.photo_icons{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+.logo_work{
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 43px;
+    height: 43px;
+    border: 1px solid #18cfab;
+    border-radius: 50%;
+}
+
+.logo_work:hover{
+    border-top-color: #18cfab;
+}
+
+.logo_icon {
+    color: #18cfab;
+}
+
+.logo_work:hover.portfolio-icon {
+    background-color: #18cfab;
+    color: #E9EDEF;
+    cursor: pointer;
+}
+
+.photo_text{
+    display: block;
+    text-align: center;
+}
+
+.photo_text:first-of-type{
+    margin-bottom: 7px;
+    font-weight: bold;
+    font-size: 14.1771px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #18CFAB;
+}
+
+.photo_text:last-of-type{
+    font-weight: 300;
+    font-size: 12.1518px;
+    line-height: 25px;
+    color: #8A8A8A;
+}
+
+
+.hidden{
+    display: none;
+}
+
+.plus{
+    margin-right: 15px;
+}
+
+.work_btn{
+    cursor: pointer;
+    background: #18CFAB;
+}

@@ -1,0 +1,31 @@
+.skills_wrap{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.skills_item{
+    text-align: center;
+    border-top: 8px solid #fff;
+    height: 377px;
+}
+.skills_dsr{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 30px 110px;
+}
+
+.skills_item:nth-child(odd){
+    color: #18CFAB;
+    background: #1C2A33;
+}
+
+.skills_item:nth-child(even) {
+    color: white;
+    background: #18CFAB;
+}
+.skills_item:nth-child(odd) .skills_img{
+    margin: 95px 0 48px;
+}
+.skills_item:nth-child(even) .skills_img{
+    margin: 105px 0 58px;
+}
